@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+  <info organisation="notifymd" module="missive"/>
+
+  <dependencies>
+    <dependency org="clojure" name="clojure" rev="1.0.1-alpha-SNAPSHOT"/>
+    <dependency org="clojure" name="clojure-contrib" rev="1.0"/>
+    <dependency org="draines" name="ring" rev="20090505+24fe773f"/>
+    <dependency org="draines" name="clj-backtrace" rev="20090712101712+09dcd09"/>
+    <dependency org="draines" name="clj-html" rev="20090720183504+6d71e46"/>
+    <dependency org="draines" name="clj-html-helpers" rev="20090112081911+1043b92"/>
+    <dependency org="draines" name="clj-unit" rev="20090112115808+7146d69"/>
+    <dependency org="org.mortbay.jetty" name="jetty" rev="6.1.16"/>
+    <dependency org="org.apache.httpcomponents" name="httpcore" rev="4.0"/>
+    <dependency org="org.apache.httpcomponents" name="httpcore-nio" rev="4.0"/>
+    <dependency org="commons-io" name="commons-io" rev="1.4"/>
+  </dependencies>
+</ivy-module>
